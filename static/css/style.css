@@ -166,7 +166,7 @@ img {
   align-items: center;
   gap: 16px;
 }
-
+/* container */
 /* Bottom Navbar */
 .navbar {
   width: 100%;
@@ -801,6 +801,74 @@ img {
 
   border: 1px solid var(--img-border);
   border-radius: 50%;
+}
+
+/* PROFILE INFO  */
+
+.content-container{
+  display: flex;
+}
+
+.user__profile{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.user__profile img{
+  border-radius: 50%;
+}
+
+.user__numbers{
+  display: flex;
+  margin-left: 150px;
+  margin-top: 40px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.user__posts h3{
+  font-size: 25px;
+  color: var(--text-dark);
+}
+
+.user__posts p{
+  font-size: 18px;
+  color: var(--text-dark);
+}
+
+.user__followers h3{
+  font-size: 25px;
+  color: var(--text-dark);
+}
+
+.user__followers, .user__following{
+  margin-left: 100px;
+}
+
+.user__followers p{
+  font-size: 18px;
+  color: var(--text-dark);
+}
+
+.user__following h3{
+  font-size: 25px;
+  color: var(--text-dark);
+}
+
+.user__following p{
+  font-size: 18px;
+  color: var(--text-dark);
+}
+
+.user_posts{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.user__post{
+  width: 100px;
 }
 
 /* Media Queries */

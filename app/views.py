@@ -23,7 +23,7 @@ def posts(request):
 # Fetch user posts
 def user_posts(request):
     posts = Posts.objects.filter(user=request.user)
-    return render(request, 'user_posts.html', {'posts':posts})
+    return render(request, 'app/user_posts.html', {'posts':posts})
 
 
 def users_posts(request, username):
