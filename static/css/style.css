@@ -805,6 +805,10 @@ img {
 
 /* PROFILE INFO  */
 
+.user-container{
+  display: flex;
+}
+
 .content-container{
   display: flex;
 }

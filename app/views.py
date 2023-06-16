@@ -30,7 +30,7 @@ def users_posts(request, username):
     user = User.objects.get(username=username)
     posts = user.posts_set.all()
 
-    return render(request, 'users_posts.html', {'user':user, 'posts':posts})
+    return render(request, 'app/users_posts.html', {'user':user, 'posts':posts})
 
 # STORIES
 
